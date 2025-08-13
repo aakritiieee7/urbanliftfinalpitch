@@ -12,8 +12,6 @@ import {
   ArrowRight,
   Star,
 } from "lucide-react";
-import heroImage from "@/assets/hero-warehouse.jpg";
-import carrierImage from "@/assets/carrier-feature.jpg";
 
 const Index = () => {
   return (
@@ -30,7 +28,7 @@ const Index = () => {
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
           <div 
             className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${heroImage})` }}
+            style={{ backgroundImage: `url(/lovable-uploads/3cf49c29-8117-48e1-be1e-47e085e7fb00.png)` }}
           >
             <div className="absolute inset-0 bg-background/85"></div>
           </div>
@@ -91,7 +89,7 @@ const Index = () => {
               
               <div className="relative">
                 <div className="absolute -inset-6 -z-10 overflow-hidden rounded-2xl">
-                  <img src={carrierImage} alt="" className="h-full w-full object-cover opacity-40" loading="lazy" />
+                  <img src={"/lovable-uploads/b3ddce13-673e-48ce-b065-5a7d03d53c51.png"} alt="UrbanLift.AI Delhi MSME tool room machinery" className="h-full w-full object-cover opacity-40" loading="lazy" />
                   <div className="absolute inset-0 bg-gradient-to-b from-background/0 to-background/20" />
                 </div>
                 <Card className="relative shadow-2xl border-0 bg-card">
