@@ -17,7 +17,6 @@ import postImg1 from "@/assets/shipper-packing.jpg";
 import postImg2 from "@/assets/hero-warehouse.jpg";
 import delhiIndustrial from "@/assets/923cf9a1-3cdc-4d9f-9018-2a8eeec4b560.png";
 
-
 interface Post {
   id: string;
   content: string;
