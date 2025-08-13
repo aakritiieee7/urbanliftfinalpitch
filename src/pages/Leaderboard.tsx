@@ -7,7 +7,7 @@ import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { useEffect, useMemo, useState } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { Award, Crown, Medal } from "lucide-react";
-import banner from "@/assets/delhi-industrial-branding.jpg";
+import banner from "@/assets/f92ce71e-2837-4388-b75e-f6f771ec45c9.png";
 
 type Row = { user_id: string; points: number; name?: string | null; company?: string | null; owner?: string | null };
 
